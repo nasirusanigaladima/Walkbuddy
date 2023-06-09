@@ -15,6 +15,7 @@
     height: 960px;
     background: url(/images/allstepsWC2DFFF.jpg);
     animation: animate 1s steps(5) 5;
+    
 }
 @keyframes animate{
     0%{
@@ -23,8 +24,13 @@
     100%{
         background-position: 1600px;
     }
-    
 }
+    @keyframes rotate {
+        to{
+            transform: rotateY('180deg');
+        }
+    }
+    
 
 input{
     border-top: 0px;
