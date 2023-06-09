@@ -6,7 +6,7 @@
 .container{
     background-color:wheat;
 }
-.stickFigure{
+#stickFigure{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,6 +23,7 @@
     }
     100%{
         background-position: 1600px;
+        
     }
 }
     @keyframes rotate {

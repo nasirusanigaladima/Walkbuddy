@@ -12,13 +12,17 @@
 </head>
 <body>
    <div class="wrapper">
-    <div class="buddy">
-        <div class="stickFigure">
-
-        </div>
+        <div id="stickFigure"></div>
     
-    </form>
    </div> 
+   <script>
+    alert("hey");
+    const stickFigure = document.getElementById("stickFigure");
+
+    stickFigure.addEventlistener("animationend", () => {
+    alert("animation has ended");
+});
+   </script>
 </body>
-<script src="script.js"></script>
+
 </html>
